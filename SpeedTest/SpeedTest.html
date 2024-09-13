@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Test</title>
+
+    <link rel="stylesheet" href="Speedtest.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="TopHeading">Speed Typing Test</h1>
+    <p id="paraId1">00:<span id="timer">60</span></p>
+    <div class="container">
+      <h5 id="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quae veritatis ea architecto voluptas illo assumenda quis nihil totam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. </h5>
+      <textarea name="" id="inputText" rows="5" cols="100" ></textarea>
+      
+
+      <p id="countpara">Backspace Count: <span id="backspacecount">0</span></p>
+
+      <p id="countpara">words: <span id="Words">0</span></p>
+
+      <button onclick="handleStart()" id="buttons">Start</button>
+      <button onclick="handleReset()" id="buttons">Reset</button>
+
+      <p id="result"></p>
+    </div>
+   
+
+  </div>
+
+    <script src="Speedtest.js"></script>
+  </body>
+</html>
